@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $pageTitle; ?></title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <main>
-        <p>
-            <?= $story['body'] ?>
-        </p>
+        <img src="img/logga.svg" class="logga" alt="Du kan tyvärr inte se dänna magnifika loggan">
+            <p>
+                <?= $story['body'] ?>
+            </p>
 
         <ul>
             <?php foreach ($links as $link): ?>
